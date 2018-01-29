@@ -13,5 +13,40 @@
         <!-- Force all classes implements Serializable -->
         <xjc:serializable uid="1" />
     </jaxb:globalBindings>
-
+    
+    <jaxb:bindings schemaLocation="FacturaElectronica_V.4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.fe.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+ 
+    <jaxb:bindings schemaLocation="MensajeHacienda_V4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.mh.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+    
+    <jaxb:bindings schemaLocation="MensajeReceptor_4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.mr.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>    
+    
+     <jaxb:bindings schemaLocation="NotaCreditoElectronica_V4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.nc.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>      
+    
+    <jaxb:bindings schemaLocation="NotaDebitoElectronica_V4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.nd.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>        
+    
+    <jaxb:bindings schemaLocation="TiqueteElectronico_V4.2.xsd">
+        <jaxb:schemaBindings>
+            <jaxb:package name="com.te.model.v42" />
+        </jaxb:schemaBindings>
+    </jaxb:bindings>      
 </jaxb:bindings>

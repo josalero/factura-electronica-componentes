@@ -69,5 +69,10 @@ build.dependsOn copyJar
 
 jar {
   from genJaxb.classesDir
+  
+  classifier "v42"
+  baseName "fe-model"
+  appendix ""
+  version ""
 }
 
